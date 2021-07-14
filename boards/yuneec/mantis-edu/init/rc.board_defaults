@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# board specific defaults
+#------------------------------------------------------------------------------
+
+param set-default SYS_AUTOSTART 4061
+
+# Start esc
+tap_esc start -d /dev/ttyS4 -n 4
+mixer load /dev/tap_esc /etc/mixers/quad_x.main.mix
