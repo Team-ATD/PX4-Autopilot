@@ -17,6 +17,7 @@ px4_add_board(
 		#lights/rgbled
 		# lights/rgbled_ncp5623c
 		#lights/rgbled_pwm
+		#optical_flow/yuneec_flow
 		magnetometer/isentek/ist8310
 		rc_input
 		tap_esc
